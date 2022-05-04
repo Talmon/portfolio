@@ -1,6 +1,6 @@
 <template>
-<div class="row">
-  <el-header class="mt-2 mb-2 col-md-3 header-text">RESUME - TALMON MWAKESI MWAZO</el-header>
+<div>
+  <el-header class="mt-2 mb-2  header-text">RESUME - TALMON MWAKESI MWAZO</el-header>
   <el-tabs :tab-position="tabPosition" style="height: 80%;" class="resume-tabs">
     <el-tab-pane class="tab-pane" >
       <template #label>
@@ -52,7 +52,7 @@ const tabPosition = ref('left')
 }
 
 .h1-text {
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -62,6 +62,7 @@ const tabPosition = ref('left')
 }
 .header-text {
     /* margin-top: 10px; */
+    display: none;
     font-size: 50px;
     text-align: center;
     background-color: rgb(150, 104, 194);
@@ -70,4 +71,67 @@ const tabPosition = ref('left')
     font-family: 'Raleway', sans-serif;
     height: 500px;
 }
+
+/* //Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .avatar {
+        margin-top: 30px;
+        margin-left: 5%;
+        height: 300px;
+        width: 300px;
+   }
+
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .header-text {
+    display: block;
+  } 
+
+  .h1-text {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+  }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .header-text {
+    display: block;
+  } 
+
+  .h1-text {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .header-text {
+        display: block;
+    } 
+
+    .h1-text {
+        font-size: 35px;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .header-text {
+        display: block;
+    }
+    
+    .h1-text {
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
 </style>

@@ -63,7 +63,7 @@ Platform.</li>
         <hr>
          <div class="work-experience" style="padding: 5px">
            <p> <strong> July 2014 - July 2015 </strong> </p>
-           <p> <strong> Customer Relations Officer \ ICT OFFICER </strong> </p>
+           <p> <strong> Customer Relations Officer / ICT OFFICER </strong> </p>
            <p> <strong> Huduma Center Mombasa ▪ Mombasa ▪ Kenya </strong> </p>
            <p>Tasks: </p>
            <ul>
@@ -95,5 +95,46 @@ disbursement and repayment.</li>
 .work-experience ul li {
     list-style: square;
 }
+
+
+/* The other queries are for xs */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .work-experience {
+        overflow: auto;
+    }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .work-experience {
+        overflow: auto;
+    }
+    
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .work-experience {
+        overflow: auto;
+    }
+
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .work-experience {
+        overflow: auto;
+    }
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+   .work-experience {
+        overflow: auto;
+    }
+}
+
 
 </style>

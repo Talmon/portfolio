@@ -31,6 +31,7 @@
 
 <style>
 .profile {
+    overflow: auto;
     font-size: 25px;
 }
 
@@ -39,14 +40,73 @@
 }
 
 .avatar {
-    margin-top: 30px;
-    margin-left: 45%;
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
 }
 
 .profile ul li {
     list-style: square;
+}
+
+
+/* The other queries are for xs */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .avatar {
+        height: 150px;
+        width: 150px;
+   }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .header-text {
+    display: block;
+  } 
+
+  .avatar {
+    height: 300px;
+    width: 300px;
+  }
+    
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .header-text {
+    display: block;
+  } 
+
+  .avatar { 
+    height: 300px;
+    width: 300px;
+  }
+
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .header-text {
+        display: block;
+  } 
+
+  .avatar {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .header-text {
+        display: block;
+    } 
+
+   .avatar {
+        height: 300px;
+        width: 300px;
+   }
 }
 
 </style>
