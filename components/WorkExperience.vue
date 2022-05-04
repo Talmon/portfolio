@@ -92,8 +92,8 @@ disbursement and repayment.</li>
     font-size: 25px;
 }
 
-ul li {
-    list-style: none;
+.work-experience ul li {
+    list-style: square;
 }
 
 </style>

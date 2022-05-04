@@ -27,19 +27,6 @@
     </div>
 </template>
 
-// function myRefrees(name,title,organisation,phone,email) {
-// return name,title,organisation,phone,emai
-// }
-// myRefrees ("Pastor Dickson Shikuku","Senior
-// Pastor","Deliverance Church
-// Mirema","0727031733","Wshikuku2006@yahoo.c
-// om");
-// myRefrees ("Pastor Bryan Mwashigadi","Youth
-// Pastort","Deliverance Church International
-// Kasarani","0725538909","w_wachira@yahoo.com");
-// myRefrees ("Alex Muriithi","Manager","Huduma
-// Center Mombasa","0721255733","alexkiogo22@gmail.com");
-
 <style>
 .work-experience {
     font-size: 25px;

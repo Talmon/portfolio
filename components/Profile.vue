@@ -45,8 +45,8 @@
     width: 300px;
 }
 
-ul li {
-    list-style: none;
+.profile ul li {
+    list-style: square;
 }
 
 </style>

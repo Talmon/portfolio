@@ -1,15 +1,37 @@
 <template>
-<div>
-  <el-header class="mt-2 mb-2 header-text">RESUME - TALMON MWAKESI MWAZO</el-header>
-  <el-tabs :tab-position="tabPosition" style="height: 80%;" class="demo-tabs">
-    <el-tab-pane class="tab-pane" label="Profile">
+<div class="row">
+  <el-header class="mt-2 mb-2 col-md-3 header-text">RESUME - TALMON MWAKESI MWAZO</el-header>
+  <el-tabs :tab-position="tabPosition" style="height: 80%;" class="resume-tabs">
+    <el-tab-pane class="tab-pane" >
+      <template #label>
+        <h1 class="h1-text">Profile</h1>  
+      </template>  
       <Profile />
     </el-tab-pane>
-    <el-tab-pane label="Work Experience"> <WorkExperience /></el-tab-pane>
-    <el-tab-pane label="Education"> <Education /> </el-tab-pane>
-    <!-- <el-tab-pane label="Skills"> <Skills /> </el-tab-pane> -->
-    <el-tab-pane label="Hobbies"> <Hobbies /> </el-tab-pane>
-    <el-tab-pane label="References"> <References /> </el-tab-pane>
+    <el-tab-pane label="Work Experience"> 
+      <template #label>
+        <h1 class="h1-text">Work Experience</h1>  
+      </template>  
+      <WorkExperience />
+    </el-tab-pane>
+    <el-tab-pane label="Education">
+      <template #label>
+        <h1 class="h1-text">Education</h1>  
+      </template>  
+      <Education /> 
+    </el-tab-pane>
+    <el-tab-pane label="Hobbies">
+      <template #label>
+        <h1 class="h1-text">Hobbies</h1>  
+      </template>  
+      <Hobbies />
+    </el-tab-pane>
+    <el-tab-pane label="References"> 
+      <template #label>
+        <h1 class="h1-text">References</h1>  
+      </template>  
+        <References />
+    </el-tab-pane>
   </el-tabs>
   </div>
 </template>
@@ -21,7 +43,7 @@ const tabPosition = ref('left')
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 
-.demo-tabs > .el-tabs__content {
+.resume-tabs > .el-tabs__content {
   padding: 32px;
   color: #6b778c;
   font-size: 29px;
@@ -29,8 +51,9 @@ const tabPosition = ref('left')
   font-family: 'Raleway', sans-serif;
 }
 
-.tab-pane{
-    font-size: 40px;
+.h1-text {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .el-tabs--right .el-tabs__content,
