@@ -3,7 +3,7 @@
          <h1>Profile</h1> 
          <el-card >
         <img
-          src="https://media-exp1.licdn.com/dms/image/C5103AQFo-DjHQKc_dg/profile-displayphoto-shrink_800_800/0/1516443673669?e=1657152000&v=beta&t=dfsfdoWotGVfVSdpBjwW-OOZBEPOJrDE8k_9w18emxU"
+          src="../static/official_pic.jpeg"
           class="image avatar"
         />
         <div class="profile" style="padding: 14px">
