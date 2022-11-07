@@ -21,7 +21,6 @@
                    <li>ElementUI</li>
                    <li>Vuetify</li>
                    <li>AdonisJS</li>
-                   <!-- <li></li> -->
                </ul>
         </div>
       </el-card>
