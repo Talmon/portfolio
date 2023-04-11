@@ -5,7 +5,7 @@
         <div class="work-experience" style="padding: 5px">
            <p> <strong> Pastor Benjamin Kasankya </strong> </p>
            <p> <strong> Lead Pastor - Reconciliation at the Cross Ministries </strong> </p>
-           <p> <a href="ratcministry.org" target="_"> Church Website </a> </p>
+           <p> <a href="https://ratcministry.org" target="_"> Church Website </a> </p>
            <p> Email: <strong> benjykasankya@gmail.com  </strong>  </p>
            <p> Mobile no: Contact me for details. </p> 
         </div>
