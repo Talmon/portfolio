@@ -5,11 +5,12 @@
         <div class="work-experience" style="padding: 5px">
            <p> <strong> January 2022 - Present </strong> </p>
            <p> <strong> Freelance Senior Software Engineer / Consultant </strong> </p>
-           <p>Developing projects for the following clients: </p>
+           <p>Developing projects for  clients: </p>
            <ul>
                    <li> <a href="https://cresentmovers.com" target="_"> Cresent Movers </a></li>
-                   <li> <a href="https://talmon.github.io/robofriends/" target="_"> Robofriends Personal React Project </a></li>
-                   <li> Consulting with Roamtech Solutions</li>
+                   <li> <a href="https://talmon.github.io/robofriends/" target="_"> Robofriends Personal React Project </a></li> 
+                   <li> Consulting with Roamtech Solutions</li> 
+                   <li> Consulting with Avane Clinic</li> 
                </ul>
         </div>
         <hr>
@@ -44,10 +45,10 @@ Platform.</li>
            <p> <strong> May 2016 - June 2017 </strong> </p>
            <p> <strong> Freelance Developer </strong> </p>
            <p>Developed some personal projects: </p>
-           <ul>
+           <!-- <ul>
                    <li> <a href="https://thefantasymvp.herokuapp.com/" target="_">Divine Sports </a></li>
                    <li> <a href="https://qualpro-solutions-2017.herokuapp.com" target="_">QualPro website </a></li>
-           </ul>
+           </ul> -->
         </div>
         <hr>
         <div class="work-experience" style="padding: 5px">
