@@ -5,9 +5,10 @@
         <div class="work-experience" style="padding: 5px">
            <p> <strong> January 2022 - Present </strong> </p>
            <p> <strong> Freelance Senior Software Engineer / Consultant </strong> </p>
-           <p>Developing projects for  clients: </p>
+           <p>Developing projects personally and for  clients: </p>
            <ul>
-                   <li> <a href="https://cresentmovers.com" target="_"> Cresent Movers </a></li>
+                   <li> <a href="https://talmon.github.io/yada-school-of-tech" target="_"> Yada School of Tech </a></li>
+                   <li> <a href="https://talmon.github.io/yada-innovations/" target="_"> Yada Innovations </a></li>
                    <li> <a href="https://talmon.github.io/robofriends/" target="_"> Robofriends Personal React Project </a></li> 
                    <li> Consulting with Roamtech Solutions</li> 
                    <li> Consulting with Avane Clinic</li> 

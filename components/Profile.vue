@@ -13,7 +13,7 @@
           <span> <p> Github profile:  <a href="https://github.com/Talmon" target="_"> Click here  </a> </p>    </span>
           <span> <p> LinkedIn profile:  <a href="https://www.linkedin.com/in/talmon-mwakesi-04755750/" target="_"> Click here  </a> </p>    </span>
            <p class="lead">I am a born again believer of Jesus Christ,I dedicated my whole life to him. </p>
-           <p>I am also a full stack developer with over 4 years experience in development with <strong> PHP </strong>,<strong>Javascript </strong> and <strong>Python </strong>.I've mainly used <strong> MySQL </strong>,<strong> PostgreSQL </strong> and <strong> Firebase </strong> for databases.I'm proficient with <strong> GCP </strong>  for DevOps.My main frameworks are: </p>
+           <p>I am also a full stack developer with over 5 years experience in development with <strong> PHP </strong>,<strong>Javascript </strong> and <strong>Python </strong>.I've mainly used <strong> MySQL </strong>,<strong> PostgreSQL </strong> and <strong> Firebase </strong> for databases.I'm proficient with <strong> GCP </strong>  for DevOps.My main frameworks are: </p>
                <ul>
                    <li>Laravel</li>
                    <li>VueJS</li>
